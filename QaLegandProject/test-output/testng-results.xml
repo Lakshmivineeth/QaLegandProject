@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="18" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-29T14:53:10 IST" name="Suite" finished-at="2023-06-29T14:53:27 IST" duration-ms="17176">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.verifySignInvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" name="verifySignInvalidUserinvalidPassword" class="com.QaLegandProject.scripts.LoginTest"/>
+        <method signature="LoginTest.verifySignIninvalidUservalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" name="verifySignIninvalidUservalidPassword" class="com.QaLegandProject.scripts.LoginTest"/>
+        <method signature="LoginTest.verifySignIninvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" name="verifySignIninvalidUserinvalidPassword" class="com.QaLegandProject.scripts.LoginTest"/>
+        <method signature="HomeTest.verifyingClientMoreInfoButton()[pri:5, instance:com.QaLegandProject.scripts.HomeTest@b9b00e0]" name="verifyingClientMoreInfoButton" class="com.QaLegandProject.scripts.HomeTest"/>
+        <method signature="CustomerTest.verifyingShowEntries()[pri:6, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" name="verifyingShowEntries" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.deleteselectedrow()[pri:7, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" name="deleteselectedrow" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.verifyingClientAddition()[pri:8, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" name="verifyingClientAddition" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.verifyingPageNavigation()[pri:9, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" name="verifyingPageNavigation" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.checkcalender()[pri:10, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" name="checkcalender" class="com.QaLegandProject.scripts.CustomerTest"/>
+        <method signature="CustomerTest.verifyingpictureUpload()[pri:12, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" name="verifyingpictureUpload" class="com.QaLegandProject.scripts.CustomerTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-29T14:53:10 IST" name="Test" finished-at="2023-06-29T14:53:27 IST" duration-ms="17176">
+      <class name="com.QaLegandProject.Base.TestBase">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.QaLegandProject.Base.TestBase@1b11171f]" started-at="2023-06-29T14:53:10 IST" name="beforeTest" finished-at="2023-06-29T14:53:16 IST" duration-ms="6036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.QaLegandProject.Base.TestBase@1b11171f]" started-at="2023-06-29T14:53:27 IST" name="afterTest" finished-at="2023-06-29T14:53:27 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.QaLegandProject.Base.TestBase -->
+      <class name="com.QaLegandProject.scripts.HomeTest">
+        <test-method signature="verifyingClientMoreInfoButton()[pri:5, instance:com.QaLegandProject.scripts.HomeTest@b9b00e0]" started-at="2023-06-29T14:53:21 IST" name="verifyingClientMoreInfoButton" description="verify the user is able to check clieninfobutton" finished-at="2023-06-29T14:53:23 IST" duration-ms="2441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingClientMoreInfoButton -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.HomeTest@b9b00e0]" started-at="2023-06-29T14:53:23 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingClientMoreInfoButton status=SUCCESS method=HomeTest.verifyingClientMoreInfoButton()[pri:5, instance:com.QaLegandProject.scripts.HomeTest@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.QaLegandProject.scripts.HomeTest -->
+      <class name="com.QaLegandProject.scripts.LoginTest">
+        <test-method signature="verifySignInvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:17 IST" name="verifySignInvalidUserinvalidPassword" description="verifying valid Username with invalidPassword" data-provider="validUserinvalidPassword" finished-at="2023-06-29T14:53:18 IST" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInvalidUserinvalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:18 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:18 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignInvalidUserinvalidPassword status=SUCCESS method=LoginTest.verifySignInvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySignIninvalidUservalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:18 IST" name="verifySignIninvalidUservalidPassword" description="verifying invalid Username with  validPassword" data-provider="invalidUservalidPassword" finished-at="2023-06-29T14:53:19 IST" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[legand@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIninvalidUservalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:19 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:19 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignIninvalidUservalidPassword status=SUCCESS method=LoginTest.verifySignIninvalidUservalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySignIninvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:19 IST" name="verifySignIninvalidUserinvalidPassword" description="verifying invalid Username with  invalidPassword" data-provider="invalidUserinvalidPassword" finished-at="2023-06-29T14:53:19 IST" duration-ms="503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manage@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIninvalidUserinvalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:19 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignIninvalidUserinvalidPassword status=SUCCESS method=LoginTest.verifySignIninvalidUserinvalidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifySignInvalidUservalidPassword(java.lang.String,java.lang.String)[pri:4, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:19 IST" name="verifySignInvalidUservalidPassword" description="verifying valid Username with  validPassword" data-provider="validUservalidPassword" finished-at="2023-06-29T14:53:21 IST" duration-ms="1379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInvalidUservalidPassword -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd]" started-at="2023-06-29T14:53:21 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignInvalidUservalidPassword status=SUCCESS method=LoginTest.verifySignInvalidUservalidPassword(java.lang.String,java.lang.String)[pri:4, instance:com.QaLegandProject.scripts.LoginTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.QaLegandProject.scripts.LoginTest -->
+      <class name="com.QaLegandProject.scripts.CustomerTest">
+        <test-method signature="verifyingShowEntries()[pri:6, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:23 IST" name="verifyingShowEntries" description="verifying the selected value is listed on the entries list" finished-at="2023-06-29T14:53:23 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingShowEntries -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:23 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingShowEntries status=SUCCESS method=CustomerTest.verifyingShowEntries()[pri:6, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="deleteselectedrow()[pri:7, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:23 IST" name="deleteselectedrow" description="verify user is able to delete the selected row using action button" finished-at="2023-06-29T14:53:24 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteselectedrow -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:24 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteselectedrow status=SUCCESS method=CustomerTest.deleteselectedrow()[pri:7, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyingClientAddition()[pri:8, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:24 IST" name="verifyingClientAddition" description="verifying the name of client is added to the specific row " finished-at="2023-06-29T14:53:25 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingClientAddition -->
+        <test-method signature="verifyingPageNavigation()[pri:9, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:25 IST" name="verifyingPageNavigation" description="verify user is able to navigate to the page from the current location" finished-at="2023-06-29T14:53:25 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingPageNavigation -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:25 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingClientAddition status=SUCCESS method=CustomerTest.verifyingClientAddition()[pri:8, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:25 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingPageNavigation status=SUCCESS method=CustomerTest.verifyingPageNavigation()[pri:9, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="checkcalender()[pri:10, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:25 IST" name="checkcalender" description="verifying the page is scroll upto calender text" finished-at="2023-06-29T14:53:25 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcalender -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:25 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkcalender status=SUCCESS method=CustomerTest.checkcalender()[pri:10, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyingStatus()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:25 IST" name="verifyingStatus" description="verifying the status of the product in the reparation page" finished-at="2023-06-29T14:53:26 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingStatus -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:26 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingStatus status=SUCCESS method=CustomerTest.verifyingStatus()[pri:11, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method signature="verifyingpictureUpload()[pri:12, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:26 IST" name="verifyingpictureUpload" description="verifying picture is uploaded in the add reparation page" finished-at="2023-06-29T14:53:27 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingpictureUpload -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4]" started-at="2023-06-29T14:53:27 IST" name="takeScreenShotOnFailure" finished-at="2023-06-29T14:53:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyingpictureUpload status=SUCCESS method=CustomerTest.verifyingpictureUpload()[pri:12, instance:com.QaLegandProject.scripts.CustomerTest@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.QaLegandProject.scripts.CustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
